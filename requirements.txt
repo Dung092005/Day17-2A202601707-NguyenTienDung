@@ -8,6 +8,7 @@ google-genai>=1.0,<2
 # Local baseline stores
 redis>=6,<7
 qdrant-client>=1.15,<2
+numpy>=1.26
 scikit-learn>=1.7,<2
 
 # Lab utilities

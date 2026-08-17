@@ -10,6 +10,7 @@ services:
     environment:
       REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
       QDRANT_URL: ${QDRANT_URL:-http://qdrant:6333}
+      ZEP_API_KEY: ${ZEP_API_KEY}
       ZEP_SEMANTIC_GRAPH_ID: ${ZEP_SEMANTIC_GRAPH_ID:-vinuni-lab17-domain-kb}
       LAB_CONTEXT_TOKENS: ${LAB_CONTEXT_TOKENS:-8000}
       PYTHONPATH: /workspace
